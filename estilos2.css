@@ -1,0 +1,73 @@
+h1
+{
+    color: red;
+    font-family: calibri;
+    font-size: 50px;
+}
+​
+div
+{
+    /** Comentario
+        color: #ff6347; Numero Hexadecimal
+        color: rgb(255, 99, 71); Codificación RGB 255 BIT
+        FF = 255 
+    **/
+​
+    color: tomato;                                    /** Color de Texto **/
+    
+    background-color: skyblue;                        /** Color de Fondo **/
+    background-image: url("assets/bg-login.png");       /** Inserta una Imagen **/       
+    background-size: contain;                           /** Cambia el Ancho y Alto una Imagen **/   
+    background-repeat: no-repeat;                       /** Hace que la imagen no se repita **/ 
+    background-position: 100% 100%;                     /** Posición de la imagen en el eje X y Y **/ 
+​
+    height: 70vh;                                       /** Alto del Div **/
+    width: 50%;                                         /** Ancho del Div **/
+    
+}
+​
+p
+{
+    width: 80%;
+}
+​
+​
+/** 
+​
+Tipos de Datos en Dimensiones 
+​
+px = Pixeles 
+%  = Porcentaje del Contenedir
+vh y vw = Unidades de longitud del dispositivo.  view height y view width
+​
+**/
+p
+{
+    font-family: calibri;
+    font-size: 12pt;
+}
+​
+h1
+{
+    font-family: Tahoma;    
+}
+​
+h1:hover
+{
+    color: tomato;
+}
+​
+.GrupoEncabezados
+{
+    color: springgreen;
+}
+​
+.GrupoEncabezados2
+{
+    color: aqua;
+}
+​
+#Encabezado1:hover
+{    
+    font-size: 50px;
+}
