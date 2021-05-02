@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+​
+            /* The animation code */
+            @keyframes example {
+                from
+                {
+                    left: -20px;
+                }
+                to 
+                {
+                    left: 100%;
+                }
+            }
+​
+            @keyframes example2 {
+                0%   {top: -10vh;}
+                25%  {top: 50vh;}
+                50%  {top: 100vh;}
+                75%  {top: 50vh;}
+                100% {top: -10vh;}
+            }            
+            
+​
+            /* The element to apply the animation to */
+            .Car {
+                
+                width: 20px;
+                height: 20px;
+                margin-top: 10px;
+​
+                position: absolute ;
+                left: -20px;
+            }
+​
+            #Car1
+            {
+                background-color: tomato;
+                top: 25px;
+                animation: example 10s infinite;
+            }
+​
+            #Car2
+            {
+                background-color: green;
+                top: 50px;
+                animation: example 8s infinite;
+            }
+            
+            #Car3
+            {
+                background-color: hotpink;
+                top: 75px;
+                animation: example 5s infinite;
+            }
+            
+            #Car4
+            {
+                background-color: darkblue;
+                top: 100px;
+                animation: example 15s infinite;
+            }  
+            
+            #Car5
+            {
+                background-color: tomato;
+                left: 25px;
+                animation: example2 10s infinite;
+                animation-timing-function: linear;
+            }
+​
+            #Car6
+            {
+                background-color: green;
+                left: 50px;
+                animation: example2 8s infinite;
+                animation-timing-function: linear;
+            }
+            
+            #Car7
+            {
+                background-color: hotpink;
+                left: 75px;
+                animation: example2 5s infinite;
+                animation-timing-function: linear;
+            }
+            
+            #Car8
+            {
+                background-color: darkblue;
+                left: 100px;
+                animation: example2 15s infinite;
+                animation-timing-function: linear;
+            }              
+​
+        </style>
+    </head>
+    <body>
+​
+        <div id="Car1" class="Car">.</div>
+        <div id="Car2" class="Car">.</div>
+        <div id="Car3" class="Car">.</div>
+        <div id="Car4" class="Car">.</div>
+​
+        <div id="Car5" class="Car">.</div>
+        <div id="Car6" class="Car">.</div>
+        <div id="Car7" class="Car">.</div>
+        <div id="Car8" class="Car">.</div>        
+​
+    </body>
+</html>
