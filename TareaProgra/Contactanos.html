@@ -19,10 +19,10 @@
                 <div class="col-sm-4">
                     <h3>Menu</h3>
                     <nav class="nav flex-column">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                         <a class="nav-link" href="./Servicios.html">Servicios </a>
                         <a class="nav-link" href="./Conocenos.html">Conocenos</a>
-                        <a class="nav-link" href="./Contactanos.html">Contactanos</a>
+                        <a class="nav-link" href="./Contactanos.html" tabindex="-1" aria-disabled="true">Contactanos</a>
                     </nav>
                 </div>
                 <div class="col-sm-8">
@@ -38,14 +38,11 @@
                                 placeholder="Número de telefono">
                         </div>
                         <div class="col-auto">
-                            <label for="staticEmail2" class="visually-hidden">Email</label>
-                            <input type="text" readonly class="form-control-plaintext" id="staticEmail2"
-                                value="email@example.com">
+                            <label for="staticEmail2">Email</label>
+                            <input type="text"  id="staticEmail2"
+                                placeholder="email@example.com">
                         </div>
-                        <div class="col-auto">
-                            <label for="inputPassword2" class="visually-hidden">Password</label>
-                            <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-                        </div>
+                
                         <div class="col-auto">
                             <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
                         </div>
