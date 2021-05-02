@@ -1,0 +1,30 @@
+p
+{
+    font-family: calibri;
+    font-size: 12pt;
+}
+​
+h1
+{
+    font-family: Tahoma;    
+}
+​
+h1:hover
+{
+    color: tomato;
+}
+​
+.GrupoEncabezados
+{
+    color: springgreen;
+}
+​
+.GrupoEncabezados2
+{
+    color: aqua;
+}
+​
+#Encabezado1:hover
+{    
+    font-size: 50px;
+}
