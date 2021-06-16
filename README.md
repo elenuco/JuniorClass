@@ -6,8 +6,8 @@ En este repositorio se vera:
 
 - Conceptos básicos de html, css y JavaScript:
 
-   * Operadores aritmeticos 
-   * Operadores lógicos
-   * Condicionales
-   * Bucles
+   - Operadores aritmeticos 
+   - Operadores lógicos
+   - Condicionales
+   - Bucles
 - conceptos básicos de python
